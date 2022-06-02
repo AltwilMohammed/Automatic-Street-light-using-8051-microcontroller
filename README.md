@@ -28,6 +28,6 @@ Project is created with:
 ![image](https://user-images.githubusercontent.com/40560478/171043448-1073095d-e7db-4cab-a69e-1a2b9fcb2883.png)
 
 ## code
-* https://github.com/AltwilMohammed/Automatic-Street-light-using-8051-microcontroller/blob/main/atstreet.c
+* https://github.com/AltwilMohammed/Automatic-Street-light-using-8051-microcontroller/blob/main/light%20code/atstreet.c
 
 
