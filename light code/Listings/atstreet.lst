@@ -1,0 +1,63 @@
+C51 COMPILER V9.59.0.0   ATSTREET                                                          11/11/2019 23:26:58 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE ATSTREET
+OBJECT MODULE PLACED IN .\Objects\atstreet.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE atstreet.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\
+                    -atstreet.lst) TABS(2) OBJECT(.\Objects\atstreet.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          sbit sensor1=P1^0;
+   3          sbit sensor2=P1^1;
+   4          sbit sensor3=P1^2;
+   5          sbit sensor4=P1^3;
+   6          sbit sensor5=P1^4;
+   7          sbit load1=P2^0;
+   8          sbit load2=P2^1;
+   9          sbit load3=P2^2;
+  10          sbit load4=P2^3;
+  11          sbit load5=P2^4;
+  12          void main()
+  13          {
+  14   1        load1=load2=load3=load4=load5=0;
+  15   1        sensor1=sensor2=sensor3=sensor4=sensor5=0;
+  16   1        while(1)
+  17   1        {
+  18   2          if(sensor1==1)
+  19   2          load1=1;
+  20   2          else 
+  21   2            load1=0;
+  22   2          if(sensor2==1)
+  23   2          load2=1;
+  24   2          else 
+  25   2            load2=0;
+  26   2          if(sensor3==1)
+  27   2          load3=1;
+  28   2          else
+  29   2            load3=0;
+  30   2          if(sensor4==1)
+  31   2          load4=1;
+  32   2          else 
+  33   2            load4=0;
+  34   2          if(sensor5==1)
+  35   2          load5=1;
+  36   2          else
+  37   2            load5=0;
+  38   2        }
+  39   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     67    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
