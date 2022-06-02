@@ -1,0 +1,3 @@
+".\Objects\atstreet.obj" 
+TO ".\Objects\street_light" 
+PRINT(".\Listings\street_light.m51")
